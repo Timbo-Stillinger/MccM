@@ -1,6 +1,7 @@
 # MccM
 MODIS Convolutional Cloud Mask - A deep learning cloud mask for MOD09GA datasets
 this is an alpha release - use with caution! 
+repository is currently private, will go public alongside peer reivew paper submission
 
 stats over numerious snow covered mountainous scenes
 compared to MOD35 for this release:
