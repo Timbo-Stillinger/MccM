@@ -23,7 +23,7 @@ snow=C=='snow';
 cnnMasks.snow=C=='snow';
 cnnMasks.cloud=C=='cloud';%&~water;
 cnnMasks.neither=C=='neither';%|water;
-cnnMasks.fill=C~='snow'|C~='cloud'|C~='neither';
+cnnMasks.fill=C~='snow'&C~='cloud'&C~='neither';
 cnnMasks.mod_opcm=cm&~snow;
 cnnMasks.opcm=cm;
 end
